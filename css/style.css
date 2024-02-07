@@ -1,0 +1,41 @@
+/* @font-face {
+  font-family: "Some Font Name";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/some-font.woff2") format("woff2");
+  font-display: swap;
+} */
+.visually-hidden {
+  height: 0;
+  width: 0;
+}
+a {
+  text-decoration: none;
+}
+/* ================================================== */
+/* body {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #000000;
+} */
+
+/* header a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+h2, h3 {
+  font-size: 30px;
+  line-height: 42px;
+} */
+.advantages {
+  background-image: url("../img/berries.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+}
