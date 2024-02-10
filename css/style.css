@@ -9,33 +9,78 @@
   height: 0;
   width: 0;
 }
-a {
+
+/* ================================================== */
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  line-height: 27px;
+  color: #2d2829;
+  background-color: #fbebea;
+}
+/* .site-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+} */
+.site-navigation-item a {
+  font-size: 13px;
+  line-height: 16px;
+  color: #2d2829;
+  text-transform: uppercase;
   text-decoration: none;
 }
-/* ================================================== */
-/* body {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-style: normal;
+.site-navigation-item a.active {
+  color: #f50049;
+}
+.phone {
+  font-size: 13px;
+  line-height: 16px;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #000000;
-  background-color: #000000;
-} */
-
-/* header a {
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
+  color: #2d2829;
+  text-decoration: none;
 }
 
-h2, h3 {
-  font-size: 30px;
-  line-height: 42px;
-} */
 .advantages {
   background-image: url("../img/berries.png");
   background-position: left center;
   background-repeat: no-repeat;
 }
+
+.promo h1 {
+  font-size: 78px;
+  font-weight: bold;
+  line-height: 70px;
+}
+.promo p {
+  font-size: 40px;
+  font-style: italic;
+  line-height: 53px;
+}
+.button {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #f50049;
+  padding: 12px 62px;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+/* Торты на заказ */
+
+position: absolute;
+width: 314px;
+height: 140px;
+left: 74px;
+top: 235px;
+
+font-family: "Playfair Display";
+font-style: normal;
+font-weight: 700;
+font-size: 78px;
+line-height: 70px;
+/* or 90% */
+
+color: #2e2829;
