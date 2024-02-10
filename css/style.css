@@ -68,19 +68,4 @@ body {
   border-radius: 25px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
-/* Торты на заказ */
 
-position: absolute;
-width: 314px;
-height: 140px;
-left: 74px;
-top: 235px;
-
-font-family: "Playfair Display";
-font-style: normal;
-font-weight: 700;
-font-size: 78px;
-line-height: 70px;
-/* or 90% */
-
-color: #2e2829;
